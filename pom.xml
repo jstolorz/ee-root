@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ee-ejb-server-basic</module>
-        <module>ee-ejb-client-basic</module>
+        <module>ee-cdi-demo</module>
     </modules>
 
     <properties>

@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:\Users\janusz\IdeaProjects\ee-root\ee-ejb-server-basic\target\ee-ejb-server-basic.jar -DgroupId=org.example.ejb -DartifactId=ee-ejb-server-basic -Dversion=1.0 -Dpackaging=jar
