@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:h="jakarta.faces.html">
+<head>
+  <title>Confirm Email</title>
+</head>
+<body>
+  <h:form>
+     <h1>Confirm Email</h1>
+     <p>An email with a secret key has been sent to : #{flowScope.param1Value}</p>
+     <p>Enter key <h:inputText id="key" value="#{confirmBean.key}"/> </p>
+     <p><h:commandButton id="next" value="next" action="#{confirmBean.checkKey}"/></p>
+  </h:form>
+</body>
+</html>

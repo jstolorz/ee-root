@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:h="jakarta.faces.html">
+    <head>
+        <title>Confirm data and Accept</title>
+    </head>
+    <body>
+        <h:form prependId="false">
+           <h1>Confirm data and Accept</h1>
+
+            <p>Name: #{flowScope.name}</p>
+            <p>Surname: #{flowScope.surname}</p>
+            <p>Email: #{flowScope.email}</p>
+
+            <p>Please Accept License Agreement and click Next</p>
+            <p>Accept : <h:selectBooleanCheckbox id="input"  value="#{signupBean.licenseAccepted}" /></p>
+
+            <p><h:commandButton id="next" value="next" action="#{signupBean.accept}" /></p>
+
+            <p><h:commandButton id="back" value="back" action="signup"/></p>
+            <h:messages globalOnly="true" showDetail="false" showSummary="true"/>
+        </h:form>
+    </body>
+</html>

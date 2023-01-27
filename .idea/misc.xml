@@ -13,7 +13,15 @@
       </set>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee" location="$PROJECT_DIR$" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd" location="$PROJECT_DIR$" />
+    <resource url="xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

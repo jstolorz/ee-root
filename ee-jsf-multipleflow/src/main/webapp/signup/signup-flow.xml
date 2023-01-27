@@ -1,0 +1,29 @@
+<faces-config
+        xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+        https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_4_0.xsd"
+        version="4.0">
+
+    <flow-definition id="signup">
+        <flow-return id="homePage">
+            <from-outcome>#{signupBean.homeAction}</from-outcome>
+        </flow-return>
+
+
+
+        <flow-call id="callSettingsFlow">
+            <flow-reference>
+                <flow-id>confirm</flow-id>
+            </flow-reference>
+
+
+            <outbound-parameter>
+                <name>paramFromSignup</name>
+                <value>#{flowScope.email}</value>
+            </outbound-parameter>
+
+        </flow-call>
+    </flow-definition>
+
+</faces-config>

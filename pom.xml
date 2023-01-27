@@ -9,8 +9,24 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>ee-ejb-server-basic</module>
-        <module>ee-cdi-demo</module>
+<!--        <module>ee-ejb-server-basic</module>-->
+<!--        <module>ee-cdi-demo</module>-->
+<!--        <module>ee-jsf-basic</module>-->
+<!--        <module>ee-jsf-clientwindow</module>-->
+<!--        <module>ee-jsf-template</module>-->
+<!--        <module>ee-jsf-flow</module>-->
+<!--        <module>ee-jsf-multipleflow</module>-->
+<!--        <module>ee-jsf-contracts</module>-->
+<!--        <module>ee-jsf-upload</module>-->
+<!--        <module>ee-jsf-datatablemap</module>-->
+<!--        <module>ee-rest-basic</module>-->
+<!--        <module>ee-rest-client</module>-->
+<!--        <module>ee-rest-async</module>-->
+<!--        <module>ee-rest-filters</module>-->
+<!--        <module>ee-rest-sse</module>-->
+<!--        <module>ee-jpa-basic</module>-->
+<!--        <module>ee-test</module>-->
+        <module>jakartaee-mvc-sample</module>
     </modules>
 
     <properties>
@@ -66,7 +82,12 @@
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
-                <version>4.0.0.Final</version>
+                <version>2.0.0.Final</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
             </plugin>
         </plugins>
     </build>

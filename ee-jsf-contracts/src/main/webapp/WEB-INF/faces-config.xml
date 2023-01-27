@@ -1,0 +1,19 @@
+<faces-config
+        xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+        https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_4_0.xsd"
+        version="4.0">
+    <application>
+        <resource-library-contracts>
+            <contract-mapping>
+                <url-pattern>/admin/*</url-pattern>
+                <contracts>black</contracts>
+            </contract-mapping>
+            <contract-mapping>
+                <url-pattern>*</url-pattern>
+                <contracts>color</contracts>
+            </contract-mapping>
+        </resource-library-contracts>
+    </application>
+</faces-config>

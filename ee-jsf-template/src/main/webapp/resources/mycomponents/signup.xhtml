@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:cc="jakarta.faces.composite"
+      xmlns:h="jakarta.faces.html">
+
+      <!--INTERFACE-->
+      <cc:interface>
+          <cc:attribute name="name"/>
+          <cc:attribute name="surname"/>
+          <cc:attribute name="email"/>
+          <cc:attribute name="actionListener"
+                        method-signature="void action(jakarta.faces.event.Event)"
+                        targets="signup:saveButton"/>
+      </cc:interface>
+
+      <!-- IMPLEMENTATION -->
+      <cc:implementation>
+          <h:form id="signup">
+              <h2>Composite component Demo</h2>
+                  <h:panelGrid column="3">
+                      <h:outputText value="Name:"/>
+                      <h:inputText value="#{cc.attrs.name}" id="name"/>
+                      <h:outputText value="Surname:"/>
+                      <h:inputText value="#{cc.attrs.surname}" id="surname"/>
+                      <h:outputText value="Email:"/>
+                      <h:inputText value="#{cc.attrs.email}" id="email"/>
+                      <h:message for="email" style="color: red"/>
+                  </h:panelGrid>
+                  <h:commandButton id="saveButton" value="Save"/>
+          </h:form>
+      </cc:implementation>
+
+
+</html>

@@ -7,6 +7,49 @@
     <file url="file://$PROJECT_DIR$/ee-ejb-client-basic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-ejb-server-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-ejb-server-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jpa-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jpa-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-clientwindow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-clientwindow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-contracts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-contracts/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-contracts/src/main/webapp/WEB-INF/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-datatablemap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-datatablemap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-datatablemap/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-flow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-flow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-flow/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-multipleflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-multipleflow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-multipleflow/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-template/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-template/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-jsf-upload/src/main/webapp/WEB-INF/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-async/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-basic/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-client/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-filters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-filters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-filters/src/main/webapp/WEB-INF/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-sse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-sse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-rest-sse/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jakartaee-mvc-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jakartaee-mvc-sample/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
