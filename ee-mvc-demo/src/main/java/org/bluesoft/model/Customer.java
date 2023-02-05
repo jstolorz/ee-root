@@ -5,7 +5,6 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import jakarta.ws.rs.FormParam;
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.Serializable;
 
@@ -29,8 +28,12 @@ public class Customer implements Serializable {
     private String address;
 
     @FormParam("email")
-    @NotBlank(message = "Email is empty")
+    @NotBlank(message = "Address is empty")
     @Column
     private String email;
+
+    private String password;
+
+
 
 }

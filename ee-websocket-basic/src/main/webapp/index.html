@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your First WebSocket!</title>
+    <script src="resources/js/client.js" language="JavaScript" type="text/javascript" defer></script>
+</head>
+<body>
+   <h2 style="text-align: center;">Hello World WebSocket Client</h2>
+   <br/>
+   <div style="text-align: center;">
+       <form action="">
+           <input onclick="send_message()" value="Send Message" type="button"/>
+           <input id="textID" name="message" value="Hello WebSocket!" type="text"/>
+           <input onclick="close()" type="button" value="Close" />
+       </form>
+   </div>
+
+   <div id="output"></div>
+</body>
+</html>

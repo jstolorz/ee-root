@@ -6,9 +6,9 @@
         <artifactId>ee-root</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>jakartaee-mvc-sample</artifactId>
+    <artifactId>ee-mvc-demo</artifactId>
     <packaging>war</packaging>
-    <name>jakartaee-mvc-sample Maven Webapp</name>
+    <name>ee-mvc-demo Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -42,20 +42,18 @@
             <version>${krazo.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
+            <version>1.18.24</version>
+            <scope>provided</scope>
         </dependency>
+
+
 
     </dependencies>
     <build>
-        <finalName>jakartaee-mvc-sample</finalName>
+        <finalName>ee-mvc-demo</finalName>
     </build>
 </project>

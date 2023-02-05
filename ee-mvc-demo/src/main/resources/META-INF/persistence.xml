@@ -4,8 +4,8 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
              version="3.1">
     <persistence-unit name="primary">
-        <jta-data-source>java:jboss/datasources/JakartaeeDS</jta-data-source>
 
+        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
         <properties>
 
             <!-- AUTO-GENERATED FROM ANNOTATIONS METADATA -->
@@ -17,6 +17,7 @@
                       value="metadata"/>
 
 
+            <property name="hibernate.show_sql" value="true" />
         </properties>
     </persistence-unit>
 </persistence>

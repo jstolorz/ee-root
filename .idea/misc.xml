@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ee-ejb-client-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/jakartaee-mvc-sample/pom.xml" />
       </set>
     </option>
   </component>

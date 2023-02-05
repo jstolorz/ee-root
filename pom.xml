@@ -26,7 +26,9 @@
 <!--        <module>ee-rest-sse</module>-->
 <!--        <module>ee-jpa-basic</module>-->
 <!--        <module>ee-test</module>-->
-        <module>jakartaee-mvc-sample</module>
+
+        <module>ee-mvc-demo</module>
+        <module>ee-websocket-basic</module>
     </modules>
 
     <properties>
