@@ -29,4 +29,6 @@ public class SimpleProperty {
     public void setValue(final String value) {
         this.value = value;
     }
+
+
 }

@@ -29,6 +29,10 @@
 
         <module>ee-mvc-demo</module>
         <module>ee-websocket-basic</module>
+        <module>ee-websocket-client</module>
+        <module>ee-websocket-encdec</module>
+        <module>ee-websocket-async</module>
+        <module>ee-websocket-binary</module>
     </modules>
 
     <properties>

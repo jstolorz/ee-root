@@ -50,8 +50,18 @@
     <file url="file://$PROJECT_DIR$/ee-rest-sse/src/main/webapp/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-async/src/main/webapp/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-websocket-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-basic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ee-websocket-basic/src/main/webapp/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-binary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-binary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-encdec/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-websocket-encdec/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jakartaee-mvc-sample/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jakartaee-mvc-sample/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
